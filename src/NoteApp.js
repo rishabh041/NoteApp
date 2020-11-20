@@ -6,7 +6,6 @@ class NoteApp extends PureComponent {
         super(props);
         this.state = {
             noteList: [],
-            noteData: ""
         };
     }
     componentDidMount() {
